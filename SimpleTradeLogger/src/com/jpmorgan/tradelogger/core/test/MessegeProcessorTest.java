@@ -24,7 +24,7 @@ public class MessegeProcessorTest extends TestCase {
 	}
 
 	@Test
-	public void testSendingUnder50SimpleSaleMessages() {
+	public void testSendingUnder50Messages() {
 		System.out.println("Starting test " + new Object() {
 		}.getClass().getEnclosingMethod().getName() + "...");
 		for (int i = 0; i < 22; i++) {
@@ -40,7 +40,7 @@ public class MessegeProcessorTest extends TestCase {
 	}
 
 	@Test
-	public void testSendingOver50SimpleSaleMessages() {
+	public void testSendingOver50Messages() {
 		System.out.println("Starting test " + new Object() {
 		}.getClass().getEnclosingMethod().getName() + "...");
 		for (int i = 0; i < 54; i++) {
